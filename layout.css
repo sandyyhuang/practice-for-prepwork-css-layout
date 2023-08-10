@@ -1,0 +1,65 @@
+.fieldset {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+html, body {
+    font-family: 'Lato', 'Noto Sans TC', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    color: #333333;
+    background-color: #f6f7f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .status-date{
+    display: flex;
+    gap: 10px;
+  }
+
+  .field {
+    display: grid;
+    width: 100%;
+    text-align: center;
+  }
+
+  .radio-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .comments{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .checkbox{
+    display: flex;
+    
+  }
+
+  .legend {
+    border: 1px solid #333333;
+    padding: 5px;
+  }
+
+  .buttom{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 30px;
+    margin: auto;
+  }
